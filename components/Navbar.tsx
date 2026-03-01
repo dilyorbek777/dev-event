@@ -4,8 +4,8 @@ import Link from "next/link"
 const Navbar = () => {
     return (
         <header>
-            <nav className="flex items-center justify-between w-full px-5 h-12 backdrop-blur-md">
-                <Link href={'/'} className="logo flex items-center justify-center gap-2">
+            <nav className="text-white">
+                <Link href={'/'} className="logo flex items-center justify-center gap-2 ">
                     <Image src={'/icons/logo.png'} alt="logo" width={25} height={25} />
                     <p>DevEvent</p>
                 </Link>
